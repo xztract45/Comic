@@ -8,34 +8,59 @@ background: url("../IMG/BK.png")
 .container{
 	position: relative;
 	margin-top: 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 100px;
-	max-width: 1200px;
+	width: auto;
+	max-width: 90%;
 	background: #FFFFFF;
+	float: left;
+	height: auto;
+
 }
-.header{
+#header{		
 	padding: 5px 35px;
 	border-spacing: 10px;
 	background: #231F20;
 	display: flex;
+
 }
 .logo{
 	margin: auto;
 }
 .MainContent1{
+	float: left;
 	background: black;
 	margin: auto;
-	margin-top: 30px;
-	height: 970px;
-	width: 1140px;
+	height: auto;
+	width: auto;
 
 }
 .content{
 	background-size: 100%;
-	height: 1000px;
+	margin: 3%;
+	float: left;
+
 }
 .IMG{
 	height: 60px;
 	margin-right: 5px;
+
+}
+*{
+
+}
+.trump{
+	float: left;
+	width: 30%;
+	margin: 1%;
+	border:solid;
+	border-color:green;
+	background: linear-gradient(to right, rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=1 );
+}
+.trump_img{
+	margin:0px 25% 0 25%;
+	height: 100px;
+	width: auto;
 }
